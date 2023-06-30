@@ -1,0 +1,76 @@
+:root {
+    --red: #E90808;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    list-style: none;
+}
+
+header {
+    width: 100vw;
+    padding: 4.125rem 9.875rem 2.75rem;
+}
+
+.contact-bar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.25rem;
+}
+
+.contact-bar .social-medias {
+    display: flex;
+    justify-content: space-between;
+    width: 12rem;
+}
+
+.contact-bar svg {
+    color: var(--red);
+    height: 0.875rem;
+    width: 0.875rem;
+}
+
+.contact-bar a {
+    color: #000;
+    display: flex;
+    font-size: 0.75rem;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 8rem;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 65%;
+}
+
+.login-btn {
+    background-color: var(--red);
+    border: none;
+    border-radius: 0.875rem;
+    color: #fff;
+    font-weight: 500;
+    height: 3.125rem;
+    text-transform: uppercase;
+    width: 9.375rem;
+}
+
+main {
+    background-color: #E90808;
+    width: 85%;
+    margin: auto;
+}
