@@ -1,5 +1,8 @@
 :root {
     --red: #E90808;
+    --black-navy: #110229;
+    --light-gray: #DCDCEB;
+    --almost-white: #F4F4F4;
 }
 
 * {
@@ -70,7 +73,132 @@ nav ul {
 }
 
 main {
-    background-color: #E90808;
     width: 85%;
     margin: auto;
+}
+
+.banner {
+    background: linear-gradient(to right, rgba(255,255,255,1) 41%, rgba(255,255,255,0));
+    border: 1px solid var(--light-gray);
+    border-radius: 1rem;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.banner img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65%;
+    z-index: -1;
+}
+
+.banner h1 {
+    color: var(--black-navy);
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 2.5rem 0 1.625rem 3rem;
+    width: 55%;
+}
+
+.banner > p {
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin: 0 0 1rem 3rem;
+    width: 45%;
+}
+
+.search-bar{
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 21px 43px 0px rgba(233, 8, 8, 0.10);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    padding: 1rem;
+    width: 78%;
+}
+
+.search-bar form {
+    align-items: center;
+    display: grid;
+    grid: 3rem / auto auto auto;
+    grid-gap: 0.75rem
+}
+
+.service,
+.currency div{
+    background-color: var(--almost-white);
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    width: 6.5rem;
+}
+
+.service svg,
+.type svg,
+.currency svg,
+.rooms svg {
+    color: var(--red);
+    height: 0.75rem;
+    width: 0.75rem;
+}
+
+select,
+input {
+    background-color: transparent;
+    border: none;
+    font-size: 0.875rem;
+    outline: none;
+}
+
+.location {
+    background-color: var(--almost-white);
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    width: 27rem;
+}
+
+.type,
+.rooms div{
+    background-color: var(--almost-white);
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    width: 8.5rem;
+}
+
+.results {
+    align-items: center;
+    border-left: 1px solid var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 9rem;
+}
+
+.results p {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.results > div {
+    color: #989898;
+}
+
+.results button {
+    background-color: var(--red);
+    border: none;
+    border-radius: 0.875rem;
+    box-shadow: 0px 7px 17px 0px rgba(9, 87, 203, 0.32);
+    color: #fff;
+    height: 2.5rem;
+    margin-top: 0.625rem;
+    width: 6.375rem;
 }

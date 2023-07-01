@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <title>Real Estate - Homepage</title>
 </head>
 <body>
@@ -37,8 +38,91 @@
 
     <main>
         <section class="banner">
-            <h1>Simple way to find the perfect property</h1>
+            <img src="assets/images/BannerImage.png" alt="House Banner Picture">
 
+            <h1>Simple way to find the perfect property</h1>
+            <p>We provide a complete service for the sale, purchase or rental of real estate.</p>
+
+            <div class="search-bar">
+                <form>
+                    <label for="service" class="service">
+                        <i data-feather="home"></i>
+                        <select name="service" id="service">
+                            <option value="rent">Rent</option>
+                            <option value="buy">Buy</option>
+                        </select>
+                    </label>
+
+                    <label for="location" class="location">
+                        <input type="text" placeholder="Enter location">
+                    </label>
+
+                    <label for="type" class="type">
+                        <i data-feather="search"></i>
+                        <select name="type" id="type">
+                            <option value="house">House</option>
+                            <option value="apartment">Apartment</option>
+                        </select>
+                    </label>
+
+                    <label for="currency" class="currency">
+                        Price Range
+                        <div>
+                            <i data-feather="dollar-sign"></i>
+                            <select name="currency" id="currency">
+                                <option value="USD">USD</option>
+                            </select>
+                        </div>
+                    </label>
+
+                    <label for="price-range" class="price-range">
+                        <input type="range" name="price-range" id="price-range">
+                        
+                    </label>
+
+                    <label for="rooms" class="rooms">
+                        Rooms
+                        <div>
+                            <i data-feather="box"></i>
+                            <select name="rooms" id="rooms">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                                <option value="four">4</option>
+                                <option value="five">5</option>
+                                <option value="six">6</option>
+                            </select>
+                        </div>
+                    </label>
+                </form>
+                
+                <div class="results">
+                    <p>754 <div>Results</div></p>
+                    <button>Search</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="clients">
+            <div>
+                <h2>1000+</h2>
+                <p>Premium Houses</p>
+            </div>
+
+            <div>
+                <h2>1000+</h2>
+                <p>Happy Customers</p>
+            </div>
+
+            <div>
+                <h2>50+</h2>
+                <p>Awards</p>
+            </div>
+
+            <div>
+                <h2>100+</h2>
+                <p>Reliable Agents</p>
+            </div>
         </section>
     </main>
 
