@@ -76,8 +76,24 @@
                     </label>
 
                     <label for="price-range" class="price-range">
-                        <input type="range" name="price-range" id="price-range">
-                        
+                        <div class="slider">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="range-input">
+                            <input type="range" class="range-min" min="0" max="1000000" value="250000" step="100">
+                            <input type="range" class="range-max" min="0" max="1000000" value="750000" step="100">
+                        </div>
+
+                        <div class="price-input">
+                            <div class="field">
+                                <span>Min</span>
+                                <input type="number" class="input-min" value="250000">
+                            </div>
+                            <div class="field">
+                                <span>Max</span>
+                                <input type="number" class="input-max" value="750000">
+                            </div>
+                        </div>
                     </label>
 
                     <label for="rooms" class="rooms">
@@ -128,6 +144,7 @@
 
     <!-- Feather Icons-->
     <script src="https://unpkg.com/feather-icons"></script>
-    <script>feather.replace()</script>
+    
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
