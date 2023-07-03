@@ -1,0 +1,56 @@
+header {
+    width: 100%;
+    padding: 1.5rem 9.875rem 1.75rem;
+}
+
+.contact-bar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.25rem;
+}
+
+.contact-bar .social-medias {
+    display: flex;
+    justify-content: space-between;
+    width: 12rem;
+}
+
+.contact-bar a {
+    color: #000;
+    display: flex;
+    font-size: 0.75rem;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 8rem;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 12.75rem;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 65%;
+}
+
+.login-btn {
+    background-color: var(--red);
+    border: none;
+    border-radius: 0.875rem;
+    color: #fff;
+    font-weight: 500;
+    height: 3.125rem;
+    text-transform: uppercase;
+    width: 9.375rem;
+}

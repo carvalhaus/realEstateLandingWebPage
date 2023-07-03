@@ -1,0 +1,71 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 5.875rem 1.75rem;
+    width: 100%;
+}
+
+footer h6 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.5rem 0;
+}
+
+.company-resume {
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+    width: 35%;
+}
+
+.company-resume p {
+    color: var(--gray);
+    text-align: justify;
+    padding: 1rem 0;
+}
+
+.company-resume .social-medias {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 50%;
+}
+
+.company-resume .copyright {
+    font-size: small;
+}
+
+.take-a-tour,
+.our-company {
+    width: 12%;
+}
+
+.take-a-tour ul,
+.our-company ul {
+    display: flex;
+    flex-direction: column;
+    height: 88%;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.subscribe {
+    width: 25%;
+}
+
+.subscribe p {
+    color: var(--gray);
+    font-size: 0.875rem;
+    padding: 1rem 0 2rem 0;
+}
+
+.subscribe label {
+    border: 2px solid var(--light-gray);
+    border-radius: 0.875rem;
+    padding: 1rem;
+}
+
+.subscribe input {
+    width: 80%;
+}

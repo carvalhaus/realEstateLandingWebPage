@@ -1,0 +1,53 @@
+.testimonials {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+
+.testimonials h4 {
+    color: var(--gray);
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.testimonials-btn {
+    background-color: var(--red);
+    border: none;
+    border-radius: 0.875rem;
+    box-shadow: 0px 7px 17px 0px rgba(9, 87, 203, 0.32);
+    color: #fff;
+    font-weight: 700;
+    height: 2.5rem;
+    margin: 1.5rem;
+    width: 6.375rem;
+}
+
+.reviews-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reviews-list__item {
+    border: 1.5px solid var(--light-gray);
+    border-radius: 1.125rem;
+    padding: 1rem;
+    width: 30%;
+}
+
+.reviews-list__item h5 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.reviews-list__item h6 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+}
+
+.reviews-list__item p {
+    color: var(--gray);
+}

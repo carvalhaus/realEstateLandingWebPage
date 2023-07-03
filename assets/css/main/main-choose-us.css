@@ -1,0 +1,37 @@
+.choose-us {
+    margin: 2rem 0;
+}
+
+.choose-us h3 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.choose-us div {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choose-us img {
+    width: 50%;
+}
+
+.choose-us .text {
+    display: flex;
+    flex-direction: column;
+    height: 18rem;
+    justify-content: space-between;
+    width: 42%;
+}
+
+.choose-us .text ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choose-us .text ul li {
+    font-weight: 500;
+    padding: 1rem;
+    width: 50%;
+}

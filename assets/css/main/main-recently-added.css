@@ -1,0 +1,79 @@
+.recently-added {
+    margin: 3.5rem 0;
+    width: 100%;
+}
+
+.recently-added .title {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recently-added .title h3 {
+    width: 43%;
+}
+
+.recently-added .title a {
+    color: var(--red);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: right;
+    text-decoration: none;
+    width: 50%;
+}
+
+.recently-added__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.recently-added__list-item {
+    border: 1px solida var(--light-gray);
+    border-radius: 0.875rem;
+    box-shadow: 0px 17px 50px 0px rgba(143, 144, 166, 0.32);
+    color: var(--gray);
+    display: flex;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    width: 49%;
+
+}
+
+.recently-added__list-item div {
+    padding: 0.5rem 1.5rem;
+}
+
+.recently-added__list-item h4 {
+    color: #000;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.recently-added__list-item ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.recently-added__list-item .footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.recently-added__list-item .price {
+    align-items: center;
+    background-color: var(--red);
+    border: none;
+    border-radius: 0.875rem;
+    box-shadow: 0px 7px 17px 0px rgba(9, 87, 203, 0.32);
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    height: 2.563rem;
+    width: 5.5rem;
+}

@@ -1,0 +1,32 @@
+.clients {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0 3.375rem 0;
+    width: 100%;
+}
+
+.clients div:first-child {
+    padding-left: 0;
+}
+
+.clients div:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+.clients div {
+    border-right: 2px solid var(--red);
+    padding: 1rem 2.125rem;
+}
+
+.clients h2 {
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.clients p {
+    color: var(--gray);
+    font-size: 1.875rem;
+    font-weight: 500;
+}
