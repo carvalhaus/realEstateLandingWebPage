@@ -1,4 +1,5 @@
 // ICONS
+( () => {
 feather.replace();
 
 const rangeInput = document.querySelectorAll('.range-input input'),
@@ -44,3 +45,4 @@ rangeInput.forEach(input => {
 
     })
 })
+})()
