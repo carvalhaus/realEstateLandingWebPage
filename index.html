@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <span class="contact-bar">
+        <div class="contact-bar">
             <div class="social-medias">
                 <i data-feather="facebook"></i>
                 <i data-feather="instagram"></i>
@@ -21,7 +21,7 @@
             </div>
 
             <a href="tel:+234312423523"><i data-feather="phone"></i>+234 312-423-523</a>
-        </span>
+        </div>
 
         <nav>
             <img src="assets/images/Logo.png" alt="Real Estate Gig Logo" id="logo">
@@ -54,7 +54,7 @@
                     </label>
 
                     <label for="location" class="location">
-                        <input type="text" placeholder="Enter location">
+                        <input id="location" type="text" placeholder="Enter location">
                     </label>
 
                     <label for="type" class="type">
@@ -65,7 +65,7 @@
                         </select>
                     </label>
 
-                    <label for="currency" class="currency">
+                    <div class="currency">
                         Price Range
                         <div>
                             <i data-feather="dollar-sign"></i>
@@ -73,9 +73,9 @@
                                 <option value="USD">USD</option>
                             </select>
                         </div>
-                    </label>
+                    </div>
 
-                    <label for="price-range" class="price-range">
+                    <div class="price-range">
                         <div class="slider">
                             <div class="progress"></div>
                         </div>
@@ -94,9 +94,9 @@
                                 <input type="number" class="input-max" value="750000">
                             </div>
                         </div>
-                    </label>
+                    </div>
 
-                    <label for="rooms" class="rooms">
+                    <div class="rooms">
                         Rooms
                         <div>
                             <i data-feather="box"></i>
@@ -109,11 +109,11 @@
                                 <option value="six">6</option>
                             </select>
                         </div>
-                    </label>
+                    </div>
                 </form>
                 
                 <div class="results">
-                    <p>754 <div>Results</div></p>
+                    <p>754 <div>Results</div>
                     <button>Search</button>
                 </div>
             </div>
@@ -216,6 +216,11 @@
                     </ul>
                 </div>
             </div>
+        </section>
+
+        <section class="recently-added">
+            <h3>Recently Added</h3>
+
 
         </section>
     </main>
