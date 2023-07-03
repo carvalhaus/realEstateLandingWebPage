@@ -14,6 +14,17 @@
     list-style: none;
 }
 
+h3 {
+    font-size: 2.125rem;
+    font-weight: 500;
+}
+
+svg {
+    color: var(--red);
+    height: 0.875rem;
+    width: 0.875rem;
+}
+
 header {
     width: 100vw;
     padding: 1.5rem 9.875rem 1.75rem;
@@ -30,12 +41,6 @@ header {
     display: flex;
     justify-content: space-between;
     width: 12rem;
-}
-
-.contact-bar svg {
-    color: var(--red);
-    height: 0.875rem;
-    width: 0.875rem;
 }
 
 .contact-bar a {
@@ -332,11 +337,6 @@ input[type="range"]::-moz-range-thumb {
     padding: 0 2rem;
 }
 
-.cities h3 {
-    font-size: 2.125rem;
-    font-weight: 500;
-}
-
 .cities > h3 {
     margin-bottom: 3rem;
     text-align: center;
@@ -381,4 +381,42 @@ input[type="range"]::-moz-range-thumb {
     font-weight: 700;
     height: 2.5rem;
     width: 4.375rem;
+}
+
+.choose-us {
+    margin: 2rem 0;
+}
+
+.choose-us h3 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.choose-us div {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choose-us img {
+    width: 50%;
+}
+
+.choose-us .text {
+    display: flex;
+    flex-direction: column;
+    height: 18rem;
+    justify-content: space-between;
+    width: 42%;
+}
+
+.choose-us .text ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choose-us .text ul li {
+    font-weight: 500;
+    padding: 1rem;
+    width: 50%;
 }
