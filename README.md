@@ -2,6 +2,8 @@
 
 This webpage was developed as a comprehensive real estate platform, catering to potential buyers, investors, and anyone interested in properties. Based on this [design](https://www.figma.com/community/file/1132645927802466057/A-Real-Estate-Landing-Webpage) that I found in the Figma Community.
 
+![Real Estate Gig Gif!](/assets/images/realEstateGig.gif)
+
 ## Build with
 
 In this project, I have utilized HTML, CSS, and JavaScript as the primary technologies.
