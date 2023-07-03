@@ -361,7 +361,7 @@ input[type="range"]::-moz-range-thumb {
     display: flex;
     justify-content: space-between;
     padding: 0.75rem 0 2rem 0;
-    width: 95%;
+    width: 96%;
 }
 
 .cities-list h3 {
@@ -378,6 +378,7 @@ input[type="range"]::-moz-range-thumb {
     border-radius: 0.875rem;
     box-shadow: 0px 7px 17px 0px rgba(9, 87, 203, 0.32);
     color: #fff;
+    font-weight: 700;
     height: 2.5rem;
-    width: 6.375rem;
+    width: 4.375rem;
 }
