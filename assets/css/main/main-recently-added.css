@@ -98,7 +98,7 @@
 }
 
 /* MOBILE MEDIA QUERY */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 428px) {
     .recently-added__list-item {
         display: flex;
         flex-direction: column;
