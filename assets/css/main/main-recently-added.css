@@ -100,13 +100,8 @@
 /* MOBILE MEDIA QUERY */
 @media screen and (max-width: 425px) {
     .recently-added__list-item {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .recently-added__list-item {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 }
