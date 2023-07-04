@@ -54,3 +54,36 @@ nav ul {
     text-transform: uppercase;
     width: 9.375rem;
 }
+
+/* DESKTOPS MEDIA QUERIES */
+/* Media query for narrow monitors */
+@media screen and (max-width: 980px) {
+    header {
+        padding: 1.5rem 4.875rem 1.75rem;
+    }
+}
+
+/* TABLET MEDIA QUERY */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 1.5rem 1.75rem;
+        width: 100%;
+    }
+}
+
+/* MOBILE MEDIA QUERY */
+@media screen and (max-width: 425px) {
+    header {
+        height: 30rem;
+    }
+
+    nav {
+        flex-direction: column;
+        height: 80%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        height: 100%;
+    }
+}

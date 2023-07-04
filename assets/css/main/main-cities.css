@@ -19,10 +19,12 @@
 }
 
 .cities-list .item{
+    padding: 0 1rem;
     width: 50%;
 }
+
 .cities-list img {
-    width: 96%;
+    width: 100%
 }
 
 .line {
@@ -30,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0.75rem 0 2rem 0;
-    width: 96%;
+    width: 100%;
 }
 
 .cities-list h3 {
@@ -50,4 +52,25 @@
     font-weight: 700;
     height: 2.5rem;
     width: 4.375rem;
+}
+
+/* MOBILE MEDIA QUERY */
+@media screen and (max-width: 425px) {
+    .cities > h3 {
+        width: 85%;
+    }
+
+    .line {
+        margin-right: 0px; 
+    }
+
+    .cities-list {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cities-list .item {
+        width: 100%;
+    }
+
 }

@@ -69,3 +69,61 @@ footer h6 {
 .subscribe input {
     width: 80%;
 }
+
+/* DESKTOP'S MEDIA QUERIES */
+/* Media query for narrow monitors */
+@media screen and (max-width: 1320px) {
+    .subscribe input {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .take-a-tour ul,
+    .our-company ul {
+        height: 60%;
+    }
+}
+
+/* TABLET MEDIA QUERY */
+@media screen and (max-width: 768px) {
+    footer {
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 1.5rem 1.75rem;
+    }
+
+    .company-resume {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .take-a-tour,
+    .our-company,
+    .subscribe{
+        width: 30%;
+    }
+
+    .take-a-tour ul,
+    .our-company ul {
+        height: 15rem;
+    }
+
+    .subscribe label {
+        padding: 0.5rem;
+    }
+
+    .subscribe input {
+        width: 70%;
+    }
+}
+
+/* MOBILE MEDIA QUERY */
+@media screen and (max-width: 425px) {
+    .take-a-tour,
+    .our-company,
+    .subscribe {
+        width: 65%;
+    }
+}

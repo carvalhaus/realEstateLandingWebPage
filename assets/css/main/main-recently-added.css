@@ -43,6 +43,7 @@
 
 .recently-added__list-item div {
     padding: 0.5rem 1.5rem;
+    width: 100%;
 }
 
 .recently-added__list-item h4 {
@@ -76,4 +77,29 @@
     justify-content: center;
     height: 2.563rem;
     width: 5.5rem;
+}
+
+/* DESKTOP'S MEDIA QUERIES */
+/* Media query for narrow monitors */
+@media screen and (max-width: 1202px) {
+    .recently-added__list-item img {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 909px) {
+    .recently-added__list {
+        justify-content: center;
+    }
+
+    .recently-added__list-item {
+            width: 95%;
+    }
+}
+
+/* MOBILE MEDIA QUERY */
+@media screen and (max-width: 425px) {
+    .recently-added__list-item {
+        width: 100%;
+    }
 }

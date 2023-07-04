@@ -51,3 +51,20 @@
 .reviews-list__item p {
     color: var(--gray);
 }
+
+/* MOBILE MEDIA QUERY */
+@media screen and (max-width: 425px) {
+    .testimonials h4 {
+        text-align: center;
+        width: 70%;
+    }
+
+    .reviews-list {
+        flex-direction: column;
+    }
+
+    .reviews-list__item {
+        margin: 1rem 0;
+        width: 100%;
+    }
+}
