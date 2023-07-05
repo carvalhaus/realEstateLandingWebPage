@@ -4,10 +4,7 @@ main {
 }
 
 .banner {
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 41%, rgba(255, 255, 255, 0)), url(/assets/images/BannerImage.png) right no-repeat;
-    background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1) 41%, rgba(255, 255, 255, 0)), url(/assets/images/BannerImage.png) right no-repeat;
-    background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1) 41%, rgba(255, 255, 255, 0)), url(/assets/images/BannerImage.png) right no-repeat;
-    background-size: cover;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 41%, rgba(255, 255, 255, 0));
     border: 1px solid var(--light-gray);
     border-radius: 1rem;
     height: 30rem;
@@ -16,11 +13,14 @@ main {
     width: 100%;
 }
 
-.banner img {
+.gradient {
+    background: url(/assets/images/BannerImage.png) right no-repeat;
+    background-size: cover;
     position: absolute;
     top: 0;
-    right: 0;
-    width: 65%;
+    left: 0;
+    height: 100%;
+    width: 100%;
     z-index: -1;
 }
 
