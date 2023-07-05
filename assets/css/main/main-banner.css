@@ -13,14 +13,12 @@ main {
     width: 100%;
 }
 
-.gradient {
-    background: url(https://github.com/carvalhaus/realEstateLandingWebPage/blob/main/assets/images/BannerImage.png) right no-repeat;
-/*     background-size: cover; */
+.banner-img {
     position: absolute;
     top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    right: 0;
+    height: auto;
+    width: 1440px;
     z-index: -1;
 }
 
@@ -311,6 +309,10 @@ input[type="range"]::-moz-range-thumb {
 @media screen and (max-width: 425px) {
     .banner {
         height: 75rem;
+    }
+
+    .banner-img {
+        height: 100%;
     }
 
     .search-bar {
