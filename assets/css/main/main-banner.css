@@ -14,7 +14,7 @@ main {
 }
 
 .gradient {
-    background: url(/assets/images/BannerImage.png) right no-repeat;
+    background: url(https://github.com/carvalhaus/realEstateLandingWebPage/blob/main/assets/images/BannerImage.png) right no-repeat;
     background-size: cover;
     position: absolute;
     top: 0;
